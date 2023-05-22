@@ -19,6 +19,9 @@
             <el-form-item label="课程介绍">
                 <el-input v-model="form.courseIntro"></el-input>
             </el-form-item>
+            <el-form-item label="课程排序">
+                <el-input type="number" v-model="form.sort"></el-input>
+            </el-form-item>
             <el-form-item label="上传封面">
                 <el-upload
                     ref="uploadPic"
